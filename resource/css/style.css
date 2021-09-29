@@ -121,7 +121,7 @@ body {
   /*banner section*/
 
   .banner {
-    background-image: url("./resource/img/banner.jpg");
+    background-image: url("/resource/img/banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
