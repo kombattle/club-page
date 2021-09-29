@@ -163,3 +163,29 @@ header {
     font-weight: 800;
     font-size: 4rem;
 }
+
+@media only screen and (min-width: 370px) and (max-width: 768px){
+    .banner {
+        display: flex;
+        height: 400px;
+    }
+    
+    .banner-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 50px;
+    }
+
+    .banner-info h3 {
+        font-weight: lighter;
+        font-style: italic;
+        font-size: 1rem;
+    }
+    .banner-info h2 {
+        font-weight: 800;
+        font-size: 1.75rem;
+    }
+
+}
