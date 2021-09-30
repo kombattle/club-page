@@ -1,5 +1,27 @@
 /*universal */
 
+/* Color Theme Swatches in Hex */
+.businessman-looking-forwards.-1-hex { color: #F2D399; }
+.businessman-looking-forwards.-2-hex { color: #F2B680; }
+.businessman-looking-forwards.-3-hex { color: #594431; }
+.businessman-looking-forwards.-4-hex { color: #A65A2E; }
+.businessman-looking-forwards.-5-hex { color: #D9BBA9; }
+
+/* Color Theme Swatches in RGBA */
+.businessman-looking-forwards.-1-rgba { color: rgba(242, 210, 152, 1); }
+.businessman-looking-forwards.-2-rgba { color: rgba(242, 181, 128, 1); }
+.businessman-looking-forwards.-3-rgba { color: rgba(89, 67, 49, 1); }
+.businessman-looking-forwards.-4-rgba { color: rgba(165, 90, 46, 1); }
+.businessman-looking-forwards.-5-rgba { color: rgba(216, 186, 169, 1); }
+
+/* Color Theme Swatches in HSLA */
+.businessman-looking-forwards.-1-hsla { color: hsla(39, 77, 77, 1); }
+.businessman-looking-forwards.-2-hsla { color: hsla(28, 81, 72, 1); }
+.businessman-looking-forwards.-3-hsla { color: hsla(28, 29, 27, 1); }
+.businessman-looking-forwards.-4-hsla { color: hsla(22, 56, 41, 1); }
+.businessman-looking-forwards.-5-hsla { color: hsla(22, 38, 75, 1); }
+
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,900;1,200;1,400&display=swap');
 
 * {
@@ -12,6 +34,7 @@
 body {
     font-size: 16px;
 }
+
 
 /*header*/
 
@@ -28,7 +51,7 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 10px 0px 0px 10px;
+    padding: 10px 10px;
 }
 
 .logos p {
@@ -142,7 +165,7 @@ body {
     text-transform: uppercase;
   }
 
-.banner-info button {
+.sign-up {
     background-color: #A65A2E;
     border: none;
     color: white;
@@ -155,7 +178,24 @@ body {
     margin-top: 20px;
 }
 
-.banner-info button:hover {
+.sign-in {
+    border: 1px solid #A65A2E;
+    background-color: rgba(1, 1, 1,0.0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 20px; 
+}
+
+.sign-up:hover {
+    background-color: #C46B37;
+}
+
+.sign-in:hover {
     background-color: #C46B37;
 }
 
@@ -196,7 +236,110 @@ body {
 
 }
 
+/* slider section */
+
+.motto {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.25rem;
+}
+
+.motto h2 {
+    text-decoration: underline;
+    font-weight: 800;
+}
+
 .gallery {
-    margin: 10px auto;
+    margin: 3rem auto;
     width: 75%;
 }
+
+/*forum section*/
+.forum-sec {
+    background-color: #F2B680;
+    padding: 2rem;
+}
+
+.text-forum {
+    text-align: center;
+}
+
+.text-forum h2 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.text-forum p {
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.forum {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin: 2rem;
+    grid-gap: 2rem;
+}
+
+.forum a:hover {
+    transition: transform 0.3s;
+    transform: scale(1.05);
+    text-decoration: none;
+} 
+
+.forum-topic {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: center;
+    border-radius: 2em;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.text-topic {
+    background-color: rgb(166, 90, 46 ,0.75);
+    color: #fdfdff;
+    text-align: center;
+    border-radius: 0.75em;
+    padding: 1em 1em;
+    font-size: 1rem;
+    margin: 2rem 1rem;
+}
+
+.text-topic p {
+    margin-bottom: 0;
+}
+
+.pic1 {
+    background-image: url("/resource/img/story.jpg");
+}
+
+.pic2 {
+    background-image: url("/resource/img/gear-talk.jpg");
+}
+
+.pic3 {
+    background-image: url("/resource/img/trick.jpg");
+}
+
+.pic4 {
+    background-image: url("/resource/img/kitchen.jpg");
+}
+
+@media only screen and (min-width: 370px) and (max-width: 768px){
+    .forum {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        margin: 20px 25px;
+        grid-row-gap: 10px;
+    }
+
+}
+
