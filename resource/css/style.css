@@ -343,3 +343,36 @@ body {
 
 }
 
+/* about and event section*/
+
+.about-event {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.about-us {
+    padding: 2rem 10rem;
+}
+
+.about-us h2 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.event {
+    padding: 2rem 2rem;
+}
+
+.event-text {
+    text-align: center;
+}
+
+.event-text h2{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.card img {
+    height: 400px;
+}
