@@ -352,7 +352,7 @@ body {
 }
 
 .about-us {
-    padding: 2rem 10rem;
+    padding: 8rem 6rem;
 }
 
 .about-us h2 {
@@ -375,4 +375,33 @@ body {
 
 .card img {
     height: 400px;
+}
+
+@media only screen and (min-width: 370px) and (max-width: 768px){
+    .about-event {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-us {
+        margin: 2rem 2rem;
+        padding: 0;
+        height: 100%;
+    }
+
+
+}
+
+
+/*footer section */
+footer {
+    margin: 0rem auto;
+    background-color: #594431;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+footer p{
+    margin-bottom: 0;
 }
