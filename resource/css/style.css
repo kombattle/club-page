@@ -1,26 +1,5 @@
 /*universal */
 
-/* Color Theme Swatches in Hex */
-.businessman-looking-forwards.-1-hex { color: #F2D399; }
-.businessman-looking-forwards.-2-hex { color: #F2B680; }
-.businessman-looking-forwards.-3-hex { color: #594431; }
-.businessman-looking-forwards.-4-hex { color: #A65A2E; }
-.businessman-looking-forwards.-5-hex { color: #D9BBA9; }
-
-/* Color Theme Swatches in RGBA */
-.businessman-looking-forwards.-1-rgba { color: rgba(242, 210, 152, 1); }
-.businessman-looking-forwards.-2-rgba { color: rgba(242, 181, 128, 1); }
-.businessman-looking-forwards.-3-rgba { color: rgba(89, 67, 49, 1); }
-.businessman-looking-forwards.-4-rgba { color: rgba(165, 90, 46, 1); }
-.businessman-looking-forwards.-5-rgba { color: rgba(216, 186, 169, 1); }
-
-/* Color Theme Swatches in HSLA */
-.businessman-looking-forwards.-1-hsla { color: hsla(39, 77, 77, 1); }
-.businessman-looking-forwards.-2-hsla { color: hsla(28, 81, 72, 1); }
-.businessman-looking-forwards.-3-hsla { color: hsla(28, 29, 27, 1); }
-.businessman-looking-forwards.-4-hsla { color: hsla(22, 56, 41, 1); }
-.businessman-looking-forwards.-5-hsla { color: hsla(22, 38, 75, 1); }
-
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,900;1,200;1,400&display=swap');
 
